@@ -1,0 +1,255 @@
+@font-face {
+  font-family: 'durer';
+  src: url('fonts/durer-webfont.woff2') format('woff2'),
+    url('fonts/durer-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hero-main-div {
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  /*  */
+  display: grid;
+  grid-template-columns: 1fr;
+  /*  */
+  /* width: 90vw; */
+  /* margin: auto; */
+}
+
+.hero-div-1 {
+  width: 100vw;
+  /* width: auto; */
+  display: grid;
+  grid-template-columns: 1fr auto;
+  /* display: grid; */
+  /* grid-template-areas: 1fr 0.5fr; */
+}
+
+.hero-sub-1 {
+  overflow: hidden;
+  /* margin-left: 5vw; */
+}
+
+.designed_span {
+  font-weight: 500;
+  font-size: 13vw;
+}
+
+.comfort_span {
+  font-weight: 500;
+  font-size: 16vw;
+  line-height: 10vw;
+  /*  */
+  /* 
+  font-family: durer, sans-serif;
+  font-weight: 600;
+  font-size: 20vw;
+  font-style: italic;
+  line-height: 11vw; */
+}
+
+.hero-sub-2 {
+  /* display: grid; */
+  display: inline-flexbox;
+  /* place-items: ; */
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.hero_para-big {
+  font-style: italic;
+  letter-spacing: 2px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* justify-self: center; */
+  /* display: grid; */
+  display: flex;
+  flex-direction: column;
+  /* font-size: 12px; */
+  max-width: 90%;
+  /* place-items: center; */
+  position: relative;
+  /* margin-bottom: 10%; */
+}
+
+.hero_button {
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-family: poppins, sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  /* transition: 0.2s ease-in; */
+  border: solid 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+/* .hero_button:hover {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid;
+} */
+
+/* 1005 mid,  1536 full, 454 small */
+
+@media screen and (max-width: 460px) {
+  .designed_span {
+    line-height: 18vh;
+  }
+}
+
+@media screen and (max-width: 1059px) {
+  .hero_para-small {
+    font-style: italic;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin: auto;
+    position: relative;
+  }
+  .hero-sub-2-big-screen {
+    display: none;
+  }
+  .hero-sub-2-small-screen {
+    margin-top: 50px;
+    width: 70vw;
+    min-width: 50vw;
+  }
+
+  .designed_span {
+    font-size: 20vw;
+    /* line-height: 17vh; */
+    font-style: italic;
+  }
+
+  .comfort_span {
+    /* background: red; */
+    margin-top: 20px;
+    font-size: 23vw;
+  }
+  .hero_para {
+    margin: auto;
+    /* background: red; */
+  }
+
+  .hero_button {
+    padding-bottom: 5px;
+  }
+  .hero_button:hover:after {
+    width: 20%;
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 1059px) {
+  .hero-sub-2-small-screen {
+    display: none;
+  }
+
+  .comfort_span {
+    padding-top: 10px;
+  }
+  .hero_button:hover:after {
+    width: 20%;
+    left: 0;
+  }
+  .hero_button {
+    padding-bottom: 5px;
+  }
+}
+
+.hero_button:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 2px;
+  /* left: 50%; */
+  position: absolute;
+  background: rgb(0, 0, 0);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.rls {
+  letter-spacing: -5px;
+}
+
+.gls {
+  letter-spacing: 5px;
+}
+
+.hero-sub-2-big-screen {
+  /* margin-top: 70px; */
+  margin: auto;
+  margin-right: 5vw;
+  /* margin: auto; */
+  font-size: 12px;
+  /* max-width: 20%; */
+  max-height: 30%;
+}
+
+.hero-div-1 {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.hero-div-2 {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding-top: 3.4vh;
+
+  /* margin-top: 50px;
+   */
+}
+
+.marquee {
+  white-space: nowrap;
+  /* display: flex; */
+  /* overflow: visible; */
+  /* overflow-y: visible; */
+  overflow-x: hidden;
+}
+
+.marquee_inner {
+  white-space: nowrap;
+  margin-right: 100px;
+  padding-top: 20px;
+}
+
+.scrollings {
+  animation-delay: 2s;
+  animation: scrolling 4s linear infinite;
+  -webkit-animation-delay: 2.5s;
+}
+
+@keyframes scrolling {
+  0% {
+    /* transform: translate3d(calc(0), 0, 0); */
+    transform: translate3d(calc(-33.3%), 0, 0);
+
+    /* transform: translate3d(0, 0, 0); */
+  }
+
+  100% {
+    transform: translate3d(calc(0), 0, 0);
+  }
+}
+
+span {
+  display: inline-block;
+  /* white-space: nowrap; */
+}
+
+.hero-sub-1 {
+  padding-right: 10px;
+
+  /* background: red; */
+  /* white-space: nowrap; */
+}

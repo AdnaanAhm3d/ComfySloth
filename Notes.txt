@@ -1,0 +1,19 @@
+1062 innerwidth to trigger toggle bar~~~
+
+
+To do - 
+
+1. Fix Navbar.
+2. Fix Hero Page.
+3. Design entire website.
+4. Fix stripe.
+5. Login function.
+6. Deploy.
+7. Success
+
+
+
+-SIDEBAR LOGIN/LOGOUT BUTTONS
+-CONTACT US Page
+-stripe
+-DEPLOY

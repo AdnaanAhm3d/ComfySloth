@@ -1,0 +1,76 @@
+.form-container {
+  margin: 100px 0px 100px 0px;
+}
+
+.contactForm {
+  display: grid;
+  padding: 20px;
+  gap: 20px;
+  max-width: 80vw;
+  margin-left: 10vw;
+  /* background: red; */
+  /* place-items: center; */
+  /* background: red; */
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+.name-col {
+  margin-bottom: 20px;
+}
+/* .flexer {
+  display: flex;
+  gap: 20px;
+} */
+
+.formInput {
+  padding: 2px;
+  padding-bottom: 5px;
+  border: none;
+  background: none;
+  border-bottom: 1px solid;
+  font-family: poppins, sans-serif;
+  font-size: 16px;
+}
+
+.message {
+  min-height: 200px;
+}
+
+.submit-btn {
+  font-family: poppins, sans-serif;
+  padding: 7px 20px 7px 20px;
+  background: none;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-top: 20px;
+  transition: all 0.15s linear;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+
+  color: #c9ba99;
+  background: #7c5345;
+}
+
+@media screen and (min-width: 800px) {
+  .form-container {
+    max-width: 60vw;
+    /* margin: auto; */
+    margin: 50px auto 50px auto;
+    /* background: red; */
+  }
+  .formInput {
+    width: 100%;
+  }
+  .contactForm {
+    padding: 40px;
+    margin: 0;
+  }
+}
+
+.errorMessage {
+  color: rgb(98, 21, 21);
+}
