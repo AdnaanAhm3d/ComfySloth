@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0d747c94.chunk.css",
+    "main.js": "/static/js/main.3449f524.chunk.js",
+    "main.js.map": "/static/js/main.3449f524.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.560cc5da.js",
+    "runtime-main.js.map": "/static/js/runtime-main.560cc5da.js.map",
+    "static/js/2.1192c293.chunk.js": "/static/js/2.1192c293.chunk.js",
+    "static/js/2.1192c293.chunk.js.map": "/static/js/2.1192c293.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0d747c94.chunk.css.map": "/static/css/main.0d747c94.chunk.css.map",
+    "static/js/2.1192c293.chunk.js.LICENSE.txt": "/static/js/2.1192c293.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/static/media/1.b1b20868.jpg",
+    "static/media/2.jpeg": "/static/media/2.ce460400.jpeg",
+    "static/media/3.jpeg": "/static/media/3.f6e22392.jpeg",
+    "static/media/4.jpeg": "/static/media/4.bd5d2b64.jpeg",
+    "static/media/5.jpeg": "/static/media/5.10da3e71.jpeg",
+    "static/media/hero.css": "/static/media/durer-webfont.e778076b.woff",
+    "static/media/hero-bcg-2.78991864.jpeg": "/static/media/hero-bcg-2.78991864.jpeg",
+    "static/media/hero-bcg.a876f19f.jpeg": "/static/media/hero-bcg.a876f19f.jpeg",
+    "static/media/logo-2.7a924d33.svg": "/static/media/logo-2.7a924d33.svg",
+    "static/media/logo.c94e5122.svg": "/static/media/logo.c94e5122.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.560cc5da.js",
+    "static/js/2.1192c293.chunk.js",
+    "static/css/main.0d747c94.chunk.css",
+    "static/js/main.3449f524.chunk.js"
+  ]
+}
